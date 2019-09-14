@@ -1,0 +1,48 @@
+
+
+
+\subsection{Atividades a Serem Desenvolvidas}
+\label{section:atividadesdesenvolvidas}
+
+A execução do projeto pode ser dividida nas seguintes etapas:
+
+\begin{enumerate}
+    \item \textbf{Implementar o Aelius e o LX-Tagger}, nesta primeira etapa serão implementados dois etiquetadores encontrados em buscas preliminares: Aelius ~\cite{Aelius} e LX-Tagger~\cite{branco-silva-2004-evaluating}.
+    
+    \item \textbf{Seleção dos etiquetadores sintáticos}, neste passo serão feitas buscas no intuito de encontrar etiquetadores, especialmente em português. Após a busca serão selecionadas algumas ferramentas para a análise, os critérios de seleção serão: desempenho, e em que os corpora foram testados os etiquetadores. A seleção poderá conter uma ou mais técnicas que não sejam usadas em português, e técnicas já testadas em português, esses dois conjuntos vão ser implementados a fim de comparação. 
+    
+    \item\textbf{Verificar os corpora de teste dos etiquetadores}, quando serão analisados os corpora de teste de cada etiquetador. Essa ação tem o intuito de criar um conjunto de corpora de teste para implementação dos etiquetadores, de forma que as ferramentas sejam testadas de forma geral, assim evitando que uma técnica muito boa em apenas um corpus, buscando um POS-Tagger mais genérico para o português brasileiro.
+    
+    \item \textbf{Verificar anotação dos corpora}, neste passo verificaremos o tagset de cada corpus utilizado para testes dos etiquetadores.
+    
+    \item \textbf{Definir corpus e etiquetadores sintáticos}, neste passo serão selecionados 3 etiquetadores e um corpus anotado, de preferência manualmente. Os 3 etiquetadores serão testados em conjunto de corpora selecionado, terão suas taxas de acerto anotadas, e com base nisso será escolhido o melhor etiquetador.\cite{Cambria2014}
+    \end{enumerate}
+
+\subsection{Cronograma}
+
+Com base nas tarefas enumeradas na Seção \ref{section:atividadesdesenvolvidas}, é mostrado na Tabela \ref{tab:cronograma} o cronograma a ser executado durante a realização deste projeto.
+
+\begin{table}[ht]
+\centering
+\caption{Cronograma das atividades.}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\multirow{2}{*}{{\bf Fases}} & \multicolumn{6}{c|}{{\bf Meses}}
+\\ \cline{2-7}
+    & 1 & 2 & 3 & 4 & 5 & 6 
+\\ \hline
+    {\bf 1. Implementar o Aelius e o LX-Tagger} & x & x &  & & & 
+\\ \hline
+    {\bf 2. Seleção dos etiquetadores sintáticos} &  & x & x & & &
+\\ \hline
+    {\bf 3. Verificar os corpora de teste dos etiquetadores} & & & x & &  &  
+\\ \hline
+    {\bf 4. Verificar anotação dos corpora} & & &  & x&  & 
+\\ \hline
+    {\bf 5. Definir corpus e etiquetadores sintáticos} & & & & x & x & x
+\\ \hline
+\end{tabular}
+\label{tab:cronograma}
+\end{table}
+
+
